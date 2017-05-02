@@ -1,0 +1,28 @@
+Environment = Python 3.7
+
+Virtual Environment in use to account for PATH conflicts and to ensure
+that package requirements are maintained at the Project level.
+
+    Setup (Virtual Environment):
+          1.  The Virtual Environment was invoked via the following cmd
+              from the proprer directory:
+
+              >python -m venv .
+
+          2. Then the Virtual Environment needs to be activated via:
+
+              > .\Scripts\activate.bat
+
+              note: To deactivate the Virtual Environment
+
+              > .\Scripts\deactivate.bat
+
+    Packages:
+        The following packages where installed:
+
+            1. python-twitter (via pip)
+
+
+            note (Direct from Git-Hub Install)
+
+            >pip install git+git://github.com/<path>
